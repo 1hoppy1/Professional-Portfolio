@@ -1,3 +1,43 @@
+/* Start Universal Style Changes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* End Universal Style Changes */
+
+/* Start Header Style */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 45px;
+    background-color: grey;
+}
+header h1 a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 45px;
+    color: grey;
+    background-color: #39a6b2;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+header nav a {
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 1.55vw;
+    color: #39a6b2;
+}
+/* End Header Style */
+/* Start Hero Style */
 .hero {
     background-image: url("../images/hero-wood-4666186_1920.jpg");
     height: 300px;
@@ -5,3 +45,13 @@
     background-position: center;
     position: relative;
 }
+.hero h2 {
+    font-weight: bolder;
+    font-size: 25px;
+    color: grey;
+    background-color: #39a6b2;
+}
+
+
+
+/* End Hero Style */
