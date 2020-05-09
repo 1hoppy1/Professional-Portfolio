@@ -14,14 +14,21 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 45px;
-    background-color: grey;
+    background-color: #303030;
 }
+header h1 {
+    background-color: #39a6b2;
+    padding-left: 100px;
+    
+}
+
 header h1 a {
     text-decoration: none;
     font-weight: bolder;
     font-size: 45px;
-    color: grey;
-    background-color: #39a6b2;
+    color: #303030;
+    
+    
 }
 header nav ul {
     display: flex;
@@ -44,14 +51,46 @@ header nav a {
     background-size: cover;
     background-position: center;
     position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    padding-right: 15px;
 }
 .hero h2 {
     font-weight: bolder;
     font-size: 25px;
-    color: grey;
+    color: #303030;
     background-color: #39a6b2;
+    padding: 15px;
+    }
+/* End Hero Style */
+/* Start Show And Tell */
+.headings {
+    background-color: lavender;
+    padding: 10%;
+ }
+.heading {
+    display: flex;
+}
+.heading h2 {
+    flex: 1;
+    border-right: 5px solid black;
+    font-size: 45px;
+    text-align: right;
+    padding-right: 10px;
+}
+.heading p {
+    padding-left: 10px;
 }
 
 
-
-/* End Hero Style */
+.left {
+    width: 50%;
+    background: green;
+}
+.right {
+    flex-grow: 1;
+    background: blue;
+}
+/* End Show And Tell */
